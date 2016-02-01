@@ -22,3 +22,9 @@ end
 group :test do 
 	gem 'capybara', '~> 2.1.0'
 end
+
+group :development, :test do
+	gem 'pry-rails'
+	gem 'pry-nav'
+end
+
